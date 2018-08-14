@@ -1,0 +1,81 @@
+/* reset css */
+body {
+    background-color: #ccc;
+    line-height: 2;
+    font-family: 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1', Arial, 'Hiragino Sans GB', '\5B8B\4F53';
+    font-size: 14px;
+}
+body, h1, h2, h3, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #00B0F0;
+}
+
+/* common css */
+.layout {
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 10px 6px -6px #777;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+
+/* .intro-self part */
+.intro-self .name {
+    font-size: 24px;
+}
+.intro-self .job {
+    font-size: 15px;
+    color: #2f2f2f;
+}
+.intro-self .basic-infor .separator {
+    padding: 0 5px;
+}
+.intro-self .contact-infor > span {
+    padding-right: 15px;
+}
+
+/* education part */
+.education {
+    margin-top: 20px;
+}
+.education .description .separator {
+    padding: 0 5px;
+}
+
+/* skill part */
+.skill {
+    margin-top: 20px;
+}
+
+/* project part */
+.project {
+    margin-top: 20px;
+}
+.project .pro-item:nth-child(n + 2) {
+    margin-top: 10px;
+}
+.project .pro-item img {
+    width: 400px;
+    height: 200px;
+}
+.project .pro-item .link > a{
+    padding-right: 10px;
+}
+.project .pro-item .td {
+    width: 100px;
+    height: 100px;
+}
