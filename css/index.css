@@ -1,6 +1,6 @@
 /* reset css */
 body {
-    background-color: #ccc;
+    background-color: #FAFAFA;
     line-height: 2;
     font-family: 'Microsoft Yahei', '\5FAE\8F6F\96C5\9ED1', Arial, 'Hiragino Sans GB', '\5B8B\4F53';
     font-size: 14px;
@@ -20,11 +20,13 @@ a {
 
 /* common css */
 .layout {
-    width: 80%;
+    position: relative;
+    width: 70%;
     margin: 30px auto;
     padding: 10px;
     background-color: #fff;
-    box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 h2 {
     font-size: 20px;
@@ -46,6 +48,21 @@ h3 {
 }
 .intro-self .contact-infor > span {
     padding-right: 15px;
+}
+
+/* btn-pdf */
+.btn-pdf {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #409EFF;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.btn-pdf:hover {
+    background-color: #66b1ff;
 }
 
 /* education part */
